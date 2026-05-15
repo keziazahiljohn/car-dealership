@@ -67,11 +67,11 @@ public class Dealership {
     }
 
     public List<Vehicle> getAllVehicles() {
-        return null; // empty method -- not complete
+        return inventory;
     }
 
-    public Vehicle addVehicle(Vehicle vehicle) {
-        return null; // empty method -- not complete
+    public void addVehicle(Vehicle vehicle) {
+        inventory.add(vehicle);
     }
 
     public void removeVehicle(Vehicle vehicle) {
